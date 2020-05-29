@@ -6,6 +6,6 @@
 @import "./components/Realtors/realtors";
 @import "./components/Features/features";
 @import "./components/Story/story";
-// @import "homes";
-// @import "gallery";
-// @import "footer";
+@import "./layout/Homes/homes";
+@import "./components/Gallery/gallery";
+@import "./layout/Footer/footer";
