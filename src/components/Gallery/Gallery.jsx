@@ -16,6 +16,8 @@ import gal13 from '../../img/gal-13.jpeg';
 import gal14 from '../../img/gal-14.jpeg';
 
 
+
+
 const Gallery = () => {
     return (
         <section class="gallery">
@@ -32,7 +34,6 @@ const Gallery = () => {
             <figure class="gallery__item gallery__item--11"><img src={gal11} class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--12"><img src={gal12} class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--13"><img src={gal13} class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--14"><img src={gal14} class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--14"><img src={gal14} class="gallery__img" /></figure>
         </section>
     )

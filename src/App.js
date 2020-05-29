@@ -7,6 +7,7 @@ import Features from './components/Features/Features';
 import Story from './components/Story/Story';
 import Homes from './layout/Homes/Homes';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './layout/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Story />
       <Homes />
       <Gallery />
+      <Footer />
     </body>
   );
 }
