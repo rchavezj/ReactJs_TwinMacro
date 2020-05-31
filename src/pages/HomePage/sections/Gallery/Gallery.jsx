@@ -17,7 +17,6 @@ import gal14 from '../../../../img/gal-14.jpeg';
 
 
 
-
 const Gallery = () => {
     return (
         <section class="gallery">

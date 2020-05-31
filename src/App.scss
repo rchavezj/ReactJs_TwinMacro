@@ -2,10 +2,12 @@
 @import "./abstract/typography";
 
 @import "./layout/Sidebar/sidebar";
-@import "./layout/Header/header";
+@import "./pages/HomePage/sections/Header/header";
 @import "./components/Realtors/realtors";
-@import "./components/Features/features";
-@import "./components/Story/story";
-@import "./layout/Homes/homes";
-@import "./components/Gallery/gallery";
+@import "./pages/HomePage/sections/Features/features";
+@import "./components/Feature/feature";
+@import "./pages/HomePage/sections/Story/story";
+@import "./pages/HomePage/sections/Homes/homes";
+@import "./components/Home/home";
+@import "./pages/HomePage/sections/Gallery/gallery";
 @import "./layout/Footer/footer";
