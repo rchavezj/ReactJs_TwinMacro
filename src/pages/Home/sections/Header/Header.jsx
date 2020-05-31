@@ -6,13 +6,12 @@ import logoForbes from '../../img/logo-forbes.png';
 import logoTechCrunch from '../../img/logo-techcrunch.png';
 import logoBI from '../../img/logo-bi.png';
 
+import Realtors from '../../components/Realtors/Realtors';
+
+
 const Header = () => {
     return (
         <>
-            <div className="sidebar">
-                <button className="nav-btn"></button>
-            </div>
-
             <header className="header">
                 <img src={logo} alt="Nexter logo" className="header__logo" />
                 <h3 className="heading-3">Your own home:</h3>
@@ -26,6 +25,8 @@ const Header = () => {
                     <img src={logoBI} alt="Seen on logo 4" />
                 </div>
             </header>
+            
+            <Realtors />
         </>
     )
 }
