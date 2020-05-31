@@ -8,7 +8,7 @@ import Homes from './sections/Homes/Homes';
 import Gallery from './sections/Gallery/Gallery';
 import Footer from '../../layout/Footer/Footer';
 
-const Home = () => {
+const HomePage = () => {
     return (
         <body className="container">
             <Sidebar>
@@ -23,4 +23,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomePage;
