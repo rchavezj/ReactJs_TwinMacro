@@ -11,17 +11,17 @@ const Features = () => {
 
                 <Feature 
                     svgType={`icon-global`}
-                    topic={`Only the best properties`}
+                    topic={`World's best luxury homes`}
                     text={`
-                        Voluptatum mollitia quae. 
-                        Vero ipsum sapiente molestias accusamus 
-                        rerum sed a eligendi aut quia.`
+                        Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Tenetur distinctio 
+                        necessitatibus pariatur voluptatibus.`
                     }
                 />
 
                 <Feature
                     svgType={`icon-trophy`}
-                    topic={`All homes in in top locations`}
+                    topic={`Only the best properties`}
                     text={`
                         Voluptatum mollitia quae. Vero ipsum sapiente 
                         molestias accusamus rerum sed a eligendi aut quia.`
@@ -31,7 +31,7 @@ const Features = () => {
 
                 <Feature
                     svgType={`icon-map-pin`}
-                    topic={`Only the best properties`}
+                    topic={`All homes in in top locations`}
                     text={`
                         Tenetur distinctio necessitatibus 
                         pariatur voluptatibus quidem consequatur harum.`
