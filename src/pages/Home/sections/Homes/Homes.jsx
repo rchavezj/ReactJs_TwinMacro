@@ -1,12 +1,12 @@
 import React from 'react';
 
-import home1 from '../../img/house-1.jpeg';
-import home2 from '../../img/house-2.jpeg';
-import home3 from '../../img/house-3.jpeg';
-import home4 from '../../img/house-4.jpeg';
-import home5 from '../../img/house-5.jpeg';
-import home6 from '../../img/house-6.jpeg';
-import spriteSVG from '../../img/sprite.svg';
+import home1 from '../../../../img/house-1.jpeg';
+import home2 from '../../../../img/house-2.jpeg';
+import home3 from '../../../../img/house-3.jpeg';
+import home4 from '../../../../img/house-4.jpeg';
+import home5 from '../../../../img/house-5.jpeg';
+import home6 from '../../../../img/house-6.jpeg';
+import spriteSVG from '../../../../img/sprite.svg';
 
 const Homes = () => {
     return (

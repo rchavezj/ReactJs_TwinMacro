@@ -1,6 +1,8 @@
 import React from 'react';
 
-import spriteSVG from '../../img/sprite.svg';
+
+
+import spriteSVG from '../../../../img/sprite.svg';
 
 const Features = () => {
 

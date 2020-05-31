@@ -1,11 +1,11 @@
 import React from 'react';
 import Sidebar from '../../layout/Sidebar/Sidebar';
 
-import Header from '../../layout/Header/Header';
-import Features from '../../components/Features/Features';
-import Story from '../../components/Story/Story';
-import Homes from '../../layout/Homes/Homes';
-import Gallery from '../../components/Gallery/Gallery';
+import Header from './sections/Header/Header';
+import Features from './sections/Features/Features';
+import Story from './sections/Story/Story';
+import Homes from './sections/Homes/Homes';
+import Gallery from './sections/Gallery/Gallery';
 import Footer from '../../layout/Footer/Footer';
 
 const Home = () => {

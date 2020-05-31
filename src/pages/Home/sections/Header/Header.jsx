@@ -1,12 +1,12 @@
 import React from 'react';
 
-import logo from '../../img/logo.png';
-import logobbc from '../../img/logo-bbc.png';
-import logoForbes from '../../img/logo-forbes.png';
-import logoTechCrunch from '../../img/logo-techcrunch.png';
-import logoBI from '../../img/logo-bi.png';
+import logo from '../../../../img/logo.png';
+import logobbc from '../../../../img/logo-bbc.png';
+import logoForbes from '../../../../img/logo-forbes.png';
+import logoTechCrunch from '../../../../img/logo-techcrunch.png';
+import logoBI from '../../../../img/logo-bi.png';
 
-import Realtors from '../../components/Realtors/Realtors';
+import Realtors from '../../../../components/Realtors/Realtors';
 
 
 const Header = () => {
