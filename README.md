@@ -4,3 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 yarn add @emotion/styled @emotion/core
 yarn add tailwind.macro@next tailwindcss
+
+npx tailwindcss init --full

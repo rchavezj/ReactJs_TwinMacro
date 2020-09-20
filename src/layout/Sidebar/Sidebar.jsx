@@ -4,12 +4,11 @@ import { Button, SideBar } from './SideBar.styles';
 const Sidebar = ({ children }) => {
     return (
         <>
-            {/* <div className="sidebar"> */}
             <SideBar>
-                {/* <button className="nav-btn"></button> */}
+                {/* < SideBarTW > */}
                 <Button />
+                {/* </SideBarTW > */}
             </SideBar>
-            {/* </div> */}
             {children}
         </>
     )
