@@ -22,7 +22,7 @@ export const headerSection = styled.header`
 	    padding: 5rem;
     }
 
-    /* .header__logo {
+    .header__logo {
         height: 3rem;
         justify-self: center;
     }
@@ -56,7 +56,7 @@ export const headerSection = styled.header`
         max-height: 2.5rem;
         max-width: 100%;
         filter: brightness(70%);
-    } */
+    }
 `;
 
 export const ImgStyle = styled.div`
