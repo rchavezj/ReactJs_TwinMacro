@@ -6,3 +6,9 @@ yarn add @emotion/styled @emotion/core
 yarn add tailwind.macro@next tailwindcss
 
 npx tailwindcss init --full
+
+## Not neccessary
+yarn add typescript
+
+## My Fucken savior (emotion + tailwind combine)
+yarn add twin.macro

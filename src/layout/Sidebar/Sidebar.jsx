@@ -5,9 +5,7 @@ const Sidebar = ({ children }) => {
     return (
         <>
             <SideBarTW>
-                {/* < SideBarTW > */}
                 <Button />
-                {/* </SideBarTW > */}
             </SideBarTW>
             {children}
         </>

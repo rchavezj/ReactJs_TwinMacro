@@ -16,8 +16,7 @@ import tw, { styled } from 'twin.macro';
 */
 
 // col-start-auto col-end-auto row-start-auto row-end-auto
-export const SideBarTW = styled.div`    
-    
+export const SideBarTW = styled.div`      
     ${tw`
         flex
         bg-yellow-700 
