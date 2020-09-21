@@ -1,14 +1,14 @@
 import React from 'react';
-import { Button, SideBar } from './SideBar.styles';
+import { Button, SideBarTW } from './SideBar.styles';
 
 const Sidebar = ({ children }) => {
     return (
         <>
-            <SideBar>
+            <SideBarTW>
                 {/* < SideBarTW > */}
                 <Button />
                 {/* </SideBarTW > */}
-            </SideBar>
+            </SideBarTW>
             {children}
         </>
     )
