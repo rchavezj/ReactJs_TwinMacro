@@ -52,6 +52,8 @@ export const ButtonTW = styled.button`
         border-none
         rounded-none
         bg-orange-350
+
+       
     `}
     
     @media only screen and (max-width: 62.5em) {
