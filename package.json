@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tw-build": "tailwind build src/index.css -o public/index.css"
+    "stop": "react-scripts stop",
+    "tw-build": "tailwind build src/index.css -o public/index.css react-scripts stop react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"

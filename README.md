@@ -12,3 +12,4 @@ yarn add typescript
 
 ## My Fucken savior (emotion + tailwind combine)
 yarn add twin.macro
+yarn build tw-build (Remember to close down local host and restart it!)

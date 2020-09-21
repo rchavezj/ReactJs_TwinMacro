@@ -46,8 +46,9 @@ export const SideBarSC = styled.div`
 // col-start-auto col-end-auto row-start-auto row-end-auto
 export const ButtonTW = styled.button`      
     ${tw`
-        h-2
-        w-16
+        h-2 
+        mt-16
+        w-16-5
         border-none
         rounded-none
         bg-orange-350
