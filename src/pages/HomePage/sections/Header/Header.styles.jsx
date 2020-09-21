@@ -14,8 +14,6 @@ export const headerSection = styled.header`
     grid-row-gap: 1.5rem;
     justify-content: center;
 
-
-
     @media only screen and (max-width: 50em) {
         grid-column: -1;
     }
