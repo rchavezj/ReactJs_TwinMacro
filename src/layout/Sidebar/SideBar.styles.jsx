@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import tw from 'tailwind.macro';
+// import tw from 'tailwind.macro';
 
 
 export const SideBarLayoutTW = styled.div`
@@ -7,20 +7,19 @@ export const SideBarLayoutTW = styled.div`
 `;
 
 // col-start-auto col-end-auto row-start-auto row-end-auto
-export const SideBarTW = styled.div`
-    ${tw`
-        flex
-        bg-yellow-600 
-        justify-center
-        row-start-auto row-end-auto
-        col-start-auto col-end-auto 
+export const SideBarTW = styled.div`    
+    flex
+    bg-yellow-600 
+    justify-center
+    row-start-auto row-end-auto
+    col-start-auto col-end-auto 
 
-        @media only screen and (max-width: 62.5em) {
-            items-center
-            rol-start-1 rol-start-2
-            col-start-auto col-end-auto 
-        }
-    `}
+    @media only screen and (max-width: 62.5em) {
+        items-center
+        rol-start-1 rol-start-2
+        col-start-auto col-end-auto 
+    }
+    
 `
 
 
