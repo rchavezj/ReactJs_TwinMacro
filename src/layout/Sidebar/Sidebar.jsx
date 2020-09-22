@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, SideBarTW } from './SideBar.styles';
+import { ButtonTW, SideBarTW } from './SideBar.styles';
 
 const Sidebar = ({ children }) => {
     return (
         <>
             <SideBarTW>
-                <Button />
+                <ButtonTW />
             </SideBarTW>
             {children}
         </>

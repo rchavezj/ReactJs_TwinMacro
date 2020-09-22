@@ -46,23 +46,55 @@ export const SideBarSC = styled.div`
 // col-start-auto col-end-auto row-start-auto row-end-auto
 export const ButtonTW = styled.button`      
     ${tw`
-        h-2 
+        h-0.5
         mt-16
         w-16-5
+        bg-white
         border-none
         rounded-none
-        bg-orange-350
-
-       
     `}
+
+    ::before, ::after {
+        ${tw`
+            h-0.5
+            block
+            w-16-5
+            bg-white
+        `}
+        content: "";
+    }
     
+    ::before {
+        ${tw`  transform -translate-y-6  `}
+    } 
+
+    ::after {
+        ${tw` transform translate-y-5  `}
+    }
+
     @media only screen and (max-width: 62.5em) {
         ${tw`
-            
+            mt-0
+            mr-12
         `}
+
+        ::before {
+            ${tw`
+                transform
+                -translate-y-5
+            `}
+            /* transform: translateY(-1.2rem);  */
+        }
+        
+        ::after {
+            ${tw`
+                transform
+                translate-y-4
+            `}
+            /* transform: translateY(1rem);  */
+        }
     }
 `;
-
 
 
 
@@ -91,17 +123,17 @@ export const Button = styled.button`
         transform: translateY(1.3rem); 
     }
 
-        @media only screen and (max-width: 62.5em) {
+    @media only screen and (max-width: 62.5em) {
+        
+        margin-top: 0;
+        margin-right: 3rem; 
             
-            margin-top: 0;
-            margin-right: 3rem; 
-                
-            ::before {
-                transform: translateY(-1.2rem); 
-            }
-            
-            ::after {
-                transform: translateY(1rem); 
-            } 
+        ::before {
+            transform: translateY(-1.2rem); 
         }
+        
+        ::after {
+            transform: translateY(1rem); 
+        } 
+    }
 `;
