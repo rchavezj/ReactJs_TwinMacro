@@ -5,22 +5,40 @@ import tw, { styled } from 'twin.macro';
 // col-start-auto col-end-auto row-start-auto row-end-auto
 export const SideBarTW = styled.div`      
     ${tw`
+        lg_md:items-start
+        lg_md:row-start-1 lg_md:row-end-7
+        lg_md:col-start-1 lg_md:col-end-2 
+    `}
+
+    ${tw`
         flex
+        items-center
         bg-orange-350 
         justify-center
-        row-start-1 row-end-7
-        col-start-auto col-end-auto 
+        row-start-1 row-end-2
+        col-start-1 col-end-13
     `}
-    
-    @media only screen and (max-width: 62.5em) {
-        ${tw`
-            items-center
-            justify-center
-            row-start-1 row-end-2
-            col-start-1 col-end-13
-        `}
-    }
 `;
+
+// export const SideBarTW = styled.div`      
+//     ${tw`
+//         flex
+//         bg-orange-350 
+//         justify-center
+//         row-start-1 row-end-7
+//         col-start-auto col-end-auto 
+//     `}
+
+//     @media only screen and (max-width: 62.5em) {
+//         ${tw`
+//             items-center
+//             justify-center
+//             row-start-1 row-end-2
+//             col-start-1 col-end-13
+//         `}
+//     }
+// `;
+
 
 
 

@@ -1,13 +1,15 @@
 import React from 'react';
 import Feature from '../../../../components/Feature/Feature';
+import { FeatureTW } from './Features.styles';
 
 
 const Features = () => {
 
     return (
         <>
-            <section class="features">
+            {/* <section class="features"> */}
 
+            <FeatureTW>
 
                 <Feature
                     svgType={`icon-global`}
@@ -69,7 +71,8 @@ const Features = () => {
                         harum, voluptatum mollitia quae.`
                     }
                 />
-            </section >
+            </FeatureTW>
+            {/* </section > */}
         </>
     )
 }

@@ -12,6 +12,7 @@ module.exports = {
     screens: {
       sm: '640px',
       md: '768px',
+      lg_md: '1001px',
       lg: '1024px',
       xl: '1280px',
     },
@@ -156,6 +157,7 @@ module.exports = {
       '40': '10rem',
       '48': '12rem',
       '56': '14rem',
+      '60': '15rem',
       '64': '16rem',
     },
     backgroundColor: theme => theme('colors'),
@@ -472,6 +474,7 @@ module.exports = {
       '10': 'repeat(10, minmax(0, 1fr))',
       '11': 'repeat(11, minmax(0, 1fr))',
       '12': 'repeat(12, minmax(0, 1fr))',
+      'auto-fit': 'repeat(auto-fit,minmax(25rem,1fr))',
     },
     gridColumn: {
       auto: 'auto',
@@ -487,6 +490,7 @@ module.exports = {
       'span-10': 'span 10 / span 10',
       'span-11': 'span 11 / span 11',
       'span-12': 'span 12 / span 12',
+      'centered': 'center-start / center-end',
     },
     gridColumnStart: {
       auto: 'auto',
@@ -503,6 +507,7 @@ module.exports = {
       '11': '11',
       '12': '12',
       '13': '13',
+      'center': 'center-start',
     },
     gridColumnEnd: {
       auto: 'auto',
@@ -519,6 +524,7 @@ module.exports = {
       '11': '11',
       '12': '12',
       '13': '13',
+      'center': 'center-end',
     },
     gridTemplateRows: {
       none: 'none',

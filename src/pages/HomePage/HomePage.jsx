@@ -1,16 +1,16 @@
 import React from 'react';
-import Sidebar from '../../layout/Sidebar/Sidebar';
-
-import Header from './sections/Header/Header';
-import Features from './sections/Features/Features';
-import Story from './sections/Story/Story';
-import Homes from './sections/Homes/Homes';
-import Gallery from './sections/Gallery/Gallery';
 import Footer from '../../layout/Footer/Footer';
+import Sidebar from '../../layout/Sidebar/Sidebar';
+import Features from './sections/Features/Features';
+import Gallery from './sections/Gallery/Gallery';
+import Header from './sections/Header/Header';
+import Homes from './sections/Homes/Homes';
+import Story from './sections/Story/Story';
+
 
 const HomePage = () => {
     return (
-        <body className="container">
+        <div className="container">
             <Sidebar>
                 <Header />
                 <Features />
@@ -19,7 +19,7 @@ const HomePage = () => {
                 <Gallery />
                 <Footer />
             </Sidebar>
-        </body>
+        </div>
     );
 }
 
