@@ -11,5 +11,5 @@ npx tailwindcss init --full
 yarn add typescript
 
 ## My Fucken savior (emotion + tailwind combine)
-yarn add twin.macro
+yarn add twin.macro </br>
 yarn build tw-build (Remember to close down local host and restart it!)
