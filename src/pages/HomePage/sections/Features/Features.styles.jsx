@@ -7,8 +7,9 @@ export const FeatureTW = styled.div`
         w-1/3
         mb-24
         float-left
-
     `}
-    
+    @supports(display: grid) {
+        
+    }    
 
 `;
