@@ -5,9 +5,9 @@ import tw, { styled } from 'twin.macro';
 // col-start-auto col-end-auto row-start-auto row-end-auto
 export const SideBarTW = styled.div`      
     ${tw`
-        lg_md:items-start
-        lg_md:row-start-1 lg_md:row-end-7
-        lg_md:col-start-1 lg_md:col-end-2 
+        lg:items-start
+        lg:row-start-1 lg:row-end-7
+        lg:col-start-1 lg:col-end-2 
     `}
 
     ${tw`
@@ -81,7 +81,7 @@ export const ButtonTW = styled.button`
         `}
         content: "";
     }
-    
+
     ::before {
         ${tw`  transform -translate-y-6  `}
     } 
@@ -90,10 +90,9 @@ export const ButtonTW = styled.button`
         ${tw` transform translate-y-5  `}
     }
 
-    @media only screen and (max-width: 62.5em) {
+    @media only screen and (max-width: 1023px) {
         ${tw`
             mt-0
-            mr-12
         `}
 
         ::before {
