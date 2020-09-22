@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Feature from '../../../../components/Feature/Feature';
+
 
 const Features = () => {
 
@@ -9,7 +9,7 @@ const Features = () => {
             <section class="features">
 
 
-                <Feature 
+                <Feature
                     svgType={`icon-global`}
                     topic={`World's best luxury homes`}
                     text={`
