@@ -60,8 +60,6 @@ const H4Dark = styled.h4`
     ${tw` text-gray-950 `};
 `;
 
-
-
 const Heading = {
     H1,
     H2, H2Light, H2Dark,
