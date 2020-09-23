@@ -12,6 +12,7 @@ module.exports = {
     screens: {
       sm: '640px',
       md: '768px',
+      mg_lg: '800px',
       lg_md: '1001px',
       lg: '1024px',
       xl: '1280px',
@@ -24,6 +25,7 @@ module.exports = {
       white: '#fff',
 
       gray: {
+        50: '#f9f7f6',
         100: '#f7fafc',
         200: '#edf2f7',
         300: '#e2e8f0',
@@ -33,6 +35,7 @@ module.exports = {
         700: '#4a5568',
         800: '#2d3748',
         900: '#1a202c',
+        950: '#54483A',
       },
       red: {
         100: '#fff5f5',
@@ -50,6 +53,7 @@ module.exports = {
         200: '#feebc8',
         300: '#fbd38d',
         350: "#c69963",
+        355: '#B28451',
         360: "#f2c686",
         400: '#f6ad55',
         500: '#ed8936',
@@ -146,6 +150,7 @@ module.exports = {
       '4': '1rem',
       '5': '1.25rem',
       '6': '1.5rem',
+      '7': '1.8rem',
       '8': '2rem',
       '10': '2.5rem',
       '12': '3rem',
@@ -278,7 +283,9 @@ module.exports = {
       lg: '1.125rem',
       xl: '1.25rem',
       '2xl': '1.5rem',
+      '2x1x5': '1.6rem',
       '3xl': '1.875rem',
+      '3x1x5': '1.9rem',
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
