@@ -176,6 +176,7 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--gradient-color-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--gradient-color-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--gradient-color-stops))',
+      'gradient-story-cover': 'linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg})',
     },
     gradientColorStops: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
@@ -363,6 +364,7 @@ module.exports = {
       '5xl': '64rem',
       '6xl': '72rem',
       full: '100%',
+      'full-offset': '115%',
       ...breakpoints(theme('screens')),
     }),
     minHeight: {
@@ -456,6 +458,7 @@ module.exports = {
       '10/12': '83.333333%',
       '11/12': '91.666667%',
       full: '100%',
+      fullOffset: '115%',
       screen: '100vw',
     }),
     zIndex: {
@@ -499,6 +502,8 @@ module.exports = {
       'span-11': 'span 11 / span 11',
       'span-12': 'span 12 / span 12',
       'centered': 'center-start / center-end',
+      'center-story-picture': 'full-start / col-end 4',
+      'center-story-content': 'col-start 5 / full-end',
     },
     gridColumnStart: {
       auto: 'auto',

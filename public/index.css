@@ -3723,6 +3723,10 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
+.bg-gradient-story-cover {
+  background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
+}
+
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -12461,6 +12465,10 @@ video {
   max-width: 100%;
 }
 
+.max-w-full-offset {
+  max-width: 115%;
+}
+
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -20837,6 +20845,10 @@ video {
   width: 100%;
 }
 
+.w-fullOffset {
+  width: 115%;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -21616,6 +21628,14 @@ video {
 
 .col-centered {
   grid-column: center-start / center-end;
+}
+
+.col-center-story-picture {
+  grid-column: full-start / col-end 4;
+}
+
+.col-center-story-content {
+  grid-column: col-start 5 / full-end;
 }
 
 .col-start-1 {
@@ -27072,6 +27092,10 @@ code {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .sm\:bg-gradient-story-cover {
+    background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
   }
 
   .sm\:from-transparent {
@@ -35812,6 +35836,10 @@ code {
     max-width: 100%;
   }
 
+  .sm\:max-w-full-offset {
+    max-width: 115%;
+  }
+
   .sm\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -44188,6 +44216,10 @@ code {
     width: 100%;
   }
 
+  .sm\:w-fullOffset {
+    width: 115%;
+  }
+
   .sm\:w-screen {
     width: 100vw;
   }
@@ -44967,6 +44999,14 @@ code {
 
   .sm\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .sm\:col-center-story-picture {
+    grid-column: full-start / col-end 4;
+  }
+
+  .sm\:col-center-story-content {
+    grid-column: col-start 5 / full-end;
   }
 
   .sm\:col-start-1 {
@@ -50344,6 +50384,10 @@ code {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .md\:bg-gradient-story-cover {
+    background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
   }
 
   .md\:from-transparent {
@@ -59084,6 +59128,10 @@ code {
     max-width: 100%;
   }
 
+  .md\:max-w-full-offset {
+    max-width: 115%;
+  }
+
   .md\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -67460,6 +67508,10 @@ code {
     width: 100%;
   }
 
+  .md\:w-fullOffset {
+    width: 115%;
+  }
+
   .md\:w-screen {
     width: 100vw;
   }
@@ -68239,6 +68291,14 @@ code {
 
   .md\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .md\:col-center-story-picture {
+    grid-column: full-start / col-end 4;
+  }
+
+  .md\:col-center-story-content {
+    grid-column: col-start 5 / full-end;
   }
 
   .md\:col-start-1 {
@@ -73616,6 +73676,10 @@ code {
 
   .mg_lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .mg_lg\:bg-gradient-story-cover {
+    background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
   }
 
   .mg_lg\:from-transparent {
@@ -82356,6 +82420,10 @@ code {
     max-width: 100%;
   }
 
+  .mg_lg\:max-w-full-offset {
+    max-width: 115%;
+  }
+
   .mg_lg\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -90732,6 +90800,10 @@ code {
     width: 100%;
   }
 
+  .mg_lg\:w-fullOffset {
+    width: 115%;
+  }
+
   .mg_lg\:w-screen {
     width: 100vw;
   }
@@ -91511,6 +91583,14 @@ code {
 
   .mg_lg\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .mg_lg\:col-center-story-picture {
+    grid-column: full-start / col-end 4;
+  }
+
+  .mg_lg\:col-center-story-content {
+    grid-column: col-start 5 / full-end;
   }
 
   .mg_lg\:col-start-1 {
@@ -96888,6 +96968,10 @@ code {
 
   .lg_md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .lg_md\:bg-gradient-story-cover {
+    background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
   }
 
   .lg_md\:from-transparent {
@@ -105628,6 +105712,10 @@ code {
     max-width: 100%;
   }
 
+  .lg_md\:max-w-full-offset {
+    max-width: 115%;
+  }
+
   .lg_md\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -114004,6 +114092,10 @@ code {
     width: 100%;
   }
 
+  .lg_md\:w-fullOffset {
+    width: 115%;
+  }
+
   .lg_md\:w-screen {
     width: 100vw;
   }
@@ -114783,6 +114875,14 @@ code {
 
   .lg_md\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .lg_md\:col-center-story-picture {
+    grid-column: full-start / col-end 4;
+  }
+
+  .lg_md\:col-center-story-content {
+    grid-column: col-start 5 / full-end;
   }
 
   .lg_md\:col-start-1 {
@@ -120160,6 +120260,10 @@ code {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .lg\:bg-gradient-story-cover {
+    background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
   }
 
   .lg\:from-transparent {
@@ -128900,6 +129004,10 @@ code {
     max-width: 100%;
   }
 
+  .lg\:max-w-full-offset {
+    max-width: 115%;
+  }
+
   .lg\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -137276,6 +137384,10 @@ code {
     width: 100%;
   }
 
+  .lg\:w-fullOffset {
+    width: 115%;
+  }
+
   .lg\:w-screen {
     width: 100vw;
   }
@@ -138055,6 +138167,14 @@ code {
 
   .lg\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .lg\:col-center-story-picture {
+    grid-column: full-start / col-end 4;
+  }
+
+  .lg\:col-center-story-content {
+    grid-column: col-start 5 / full-end;
   }
 
   .lg\:col-start-1 {
@@ -143432,6 +143552,10 @@ code {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
+  }
+
+  .xl\:bg-gradient-story-cover {
+    background-image: linear-gradient( rgba(#c69963, .5), rgba(#c69963, .5), url(${./img/back.jpg});
   }
 
   .xl\:from-transparent {
@@ -152172,6 +152296,10 @@ code {
     max-width: 100%;
   }
 
+  .xl\:max-w-full-offset {
+    max-width: 115%;
+  }
+
   .xl\:max-w-screen-sm {
     max-width: 640px;
   }
@@ -160548,6 +160676,10 @@ code {
     width: 100%;
   }
 
+  .xl\:w-fullOffset {
+    width: 115%;
+  }
+
   .xl\:w-screen {
     width: 100vw;
   }
@@ -161327,6 +161459,14 @@ code {
 
   .xl\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .xl\:col-center-story-picture {
+    grid-column: full-start / col-end 4;
+  }
+
+  .xl\:col-center-story-content {
+    grid-column: col-start 5 / full-end;
   }
 
   .xl\:col-start-1 {
