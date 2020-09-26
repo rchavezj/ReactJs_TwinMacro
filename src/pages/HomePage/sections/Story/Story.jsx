@@ -35,6 +35,9 @@ const Story = () => {
                 <button class="btn">Find your own home</button>
                 {/* </div> */}
             </StoryTW.Content>
+
+
+
         </>
     )
 }
