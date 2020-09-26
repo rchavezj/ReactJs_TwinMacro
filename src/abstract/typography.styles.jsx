@@ -44,6 +44,10 @@ const H3 = styled.h3`
         text-orange-350
     `};
 `;
+const H3_Margin = styled.h3`
+    ${H3};
+    ${tw` mb-8 `};
+`;
 
 
 // Heading 4
@@ -51,22 +55,23 @@ const H4 = styled.h4`
     ${baseStyles}
     ${tw` text-3x1x5`}
 `;
-const H4Light = styled.h4`
+const H4_Light = styled.h4`
     ${H4};
     ${tw` text-gray-50 `};
 `;
-const H4Dark = styled.h4`
+const H4_Dark = styled.h4`
     ${H4};
     ${tw` text-gray-950 `};
 `;
 
+
+
 export const Heading = {
     H1,
     H2, H2Light, H2Dark,
-    H3,
-    H4, H4Light, H4Dark
+    H3, H3_Margin,
+    H4, H4_Light, H4_Dark
 }
-// module.exports = Heading;
 
 
 
