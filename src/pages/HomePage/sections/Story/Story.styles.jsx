@@ -54,13 +54,16 @@ const Img2 = styled.img`
 // mg_lg:row-start-3 mg_lg:row-end-auto
 const Content = styled.div`
   ${tw`
+    mg_lg:row-start-4 mg_lg:row-end-auto
     mg_lg:col-center-story-content
   `}
+
+  ${tw` lg:row-start-3 lg:row-end-auto `}
 
   ${tw`
     grid
     bg-gray-50
-    items-center
+    content-center
     justify-items-start
     row-start-5 row-end-6
     col-start-1 col-end-13

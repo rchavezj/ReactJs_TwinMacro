@@ -2,7 +2,7 @@ import tw, { styled } from 'twin.macro';
 
 export const FeatureTW = styled.section`
     ${tw`
-        my-60
+        my-48
         col-start-center col-end-center
     `}
     @supports(display: grid) {

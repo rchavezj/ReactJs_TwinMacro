@@ -9,7 +9,7 @@ const baseStyles = css`
 const H1 = styled.h1`
     ${baseStyles};
     ${tw`
-        text-7xl
+        text-7x1
         text-gray-50
         leading-none
     `};
@@ -40,7 +40,7 @@ const H3 = styled.h3`
     ${baseStyles};
     ${tw`
         uppercase
-        text-2xlx5
+        text-2x1x5
         text-orange-350
     `};
 `;
@@ -60,13 +60,13 @@ const H4Dark = styled.h4`
     ${tw` text-gray-950 `};
 `;
 
-const Heading = {
+export const Heading = {
     H1,
     H2, H2Light, H2Dark,
     H3,
     H4, H4Light, H4Dark
 }
-module.exports = Heading;
+// module.exports = Heading;
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
+import { Heading } from '../../../../abstract/typography.styles';
 import background from '../../../../img/back.jpg';
 import story1 from '../../../../img/story-1.jpeg';
 import story2 from '../../../../img/story-2.jpeg';
 import { StoryTW } from './Story.styles';
-
 
 
 
@@ -21,6 +21,7 @@ const Story = () => {
             </div> */}
 
             <StoryTW.Content>
+                <Heading.H3>Happy Customers</Heading.H3>
                 {/* <div class="story__content"> */}
                 <h3 class="heading-3 mb-sm">Happy Customers</h3>
                 <h2 class="heading-2 heading-2--dark mb-md">
