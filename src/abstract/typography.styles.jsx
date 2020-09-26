@@ -45,8 +45,8 @@ const H3 = styled.h3`
     `};
 `;
 const H3_Margin = styled.h3`
-    ${H3};
-    ${tw` mb-8 `};
+    /* ${H3}; */
+    /* ${tw` mb-8 `}; */
 `;
 
 
