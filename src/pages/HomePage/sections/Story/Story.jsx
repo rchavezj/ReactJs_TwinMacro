@@ -30,6 +30,11 @@ const Story = () => {
                 <h2 class="heading-2 heading-2--dark mb-md">
                     &ldquo;The best decision of our lives&rdquo;
                 </h2>
+                <StoryTW.Text>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur distinctio necessitatibus pariatur voluptatibus.
+                    Quidem consequatur harum volupta!
+                </StoryTW.Text>
                 <p class="story__text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Tenetur distinctio necessitatibus pariatur voluptatibus.
