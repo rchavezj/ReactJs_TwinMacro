@@ -24,6 +24,9 @@ const Story = () => {
                 <Heading.H3>Happy Customers</Heading.H3>
                 {/* <div class="story__content"> */}
                 <h3 class="heading-3 mb-sm">Happy Customers</h3>
+                <Heading.H2>
+                    &ldquo;The best decision of our lives&rdquo;
+                </Heading.H2>
                 <h2 class="heading-2 heading-2--dark mb-md">
                     &ldquo;The best decision of our lives&rdquo;
                 </h2>
