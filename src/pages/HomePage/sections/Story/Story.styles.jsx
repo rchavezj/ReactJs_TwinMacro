@@ -74,7 +74,7 @@ const Content = styled.div`
 
 const Text = styled.p`
   ${tw`
-    m-16
+    mb-16
     italic
     text-2xl
   `}

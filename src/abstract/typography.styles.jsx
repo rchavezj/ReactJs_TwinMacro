@@ -2,7 +2,8 @@ import tw, { css, styled } from 'twin.macro';
 
 
 const baseStyles = css`
-    ${tw` font-sans font-normal `};
+    ${tw` font-normal `};
+    font-family: "Josefin Sans", sans-serif;
 `;
 
 // Heading 1
@@ -20,9 +21,10 @@ const H1 = styled.h1`
 const H2 = styled.h2`
     ${baseStyles};
     ${tw`
+        mb-12
         italic
         text-6xl
-        leading-4
+        leading-none
     `};
 `;
 const H2Light = styled.h2`
@@ -39,14 +41,15 @@ const H2Dark = styled.h2`
 const H3 = styled.h3`
     ${baseStyles};
     ${tw`
+        mb-8
         uppercase
         text-2x1x5
         text-orange-350
     `};
 `;
 const H3_Margin = styled.h3`
-    /* ${H3}; */
-    /* ${tw` mb-8 `}; */
+    ${H3};
+    ${tw` mb-8 `};
 `;
 
 
@@ -77,10 +80,9 @@ export const Heading = {
 
 
 
-export const btn = styled.button`
+export const Button = styled.button`
     ${tw`
         text-2xl
-        font-sans
         uppercase 
         text-white
         py-8 px-12
@@ -94,5 +96,6 @@ export const btn = styled.button`
      &:hover {
         ${tw`bg-orange-355`}
     }
+    font-family: "Josefin Sans", sans-serif;
 `;
 
