@@ -21,6 +21,7 @@ const image = styled.img`
 `;
 
 const like = styled.svg`
+    ${baseStyle}
     ${tw`
         m-4 z-2
         h-10 w-10 
@@ -32,6 +33,7 @@ const like = styled.svg`
 `;
 
 const name = styled.h5`
+    ${baseStyle}
     ${tw`
         p-5
         w-10/12
@@ -49,11 +51,13 @@ const name = styled.h5`
 `;
 
 const location_and_rooms = styled.div`
+    ${baseStyle}
     ${tw` mt-10 `}
 `;
 
 
 const location_rooms_area_price = styled.div`
+    ${baseStyle}
     ${tw`
         flex
         ml-8
