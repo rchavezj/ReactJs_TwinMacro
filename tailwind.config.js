@@ -154,6 +154,7 @@ module.exports = {
       '8': '2rem',
       '10': '2.5rem',
       '12': '3rem',
+      '13': '3.5rem',
       '16': '4rem',
       '16-5': '4.5rem',
       '20': '5rem',
@@ -241,9 +242,9 @@ module.exports = {
     divideColor: theme => theme('borderColor'),
     divideOpacity: theme => theme('borderOpacity'),
     divideWidth: theme => theme('borderWidth'),
-    fill: {
-      current: 'currentColor',
-    },
+    fill: theme => ({
+      'primary-orange': theme('colors.gray.350')
+    }),
     flex: {
       '1': '1 1 0%',
       auto: '1 1 auto',
@@ -465,6 +466,8 @@ module.exports = {
     zIndex: {
       auto: 'auto',
       '0': '0',
+      '1': '1',
+      '2': '2',
       '10': '10',
       '20': '20',
       '30': '30',
@@ -486,6 +489,7 @@ module.exports = {
       '10': 'repeat(10, minmax(0, 1fr))',
       '11': 'repeat(11, minmax(0, 1fr))',
       '12': 'repeat(12, minmax(0, 1fr))',
+      'repeat': 'repeat(2, 1fr)',
       'auto-fit': 'repeat(auto-fit,minmax(25rem,1fr))',
     },
     gridColumn: {

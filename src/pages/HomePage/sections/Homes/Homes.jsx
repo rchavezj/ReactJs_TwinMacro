@@ -9,12 +9,12 @@ import home6 from '../../../../img/house-6.jpeg';
 
 import Home from '../../../../components/Home/Home';
 
+import { HomesTW } from './Homes.styles';
+
 const Homes = () => {
     return (
-        <section className="homes">
-
-
-            <Home 
+        <HomesTW>
+            <Home
                 imgSrc={home1}
                 caption={`Beautiful Familiy House`}
                 country={`USA`}
@@ -22,7 +22,7 @@ const Homes = () => {
                 acreLength={325}
                 price={`$1,200,000`}
             />
- 
+
             <Home
                 imgSrc={home2}
                 caption={`Modern Glass Villa`}
@@ -69,8 +69,7 @@ const Homes = () => {
                 price={`$600,000`}
             />
 
-
-        </section >
+        </HomesTW>
     )
 }
 
