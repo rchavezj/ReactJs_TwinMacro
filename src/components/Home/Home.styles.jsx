@@ -24,8 +24,8 @@ const like = styled.svg`
     ${tw`
         m-4 z-2
         h-10 w-10 
+        fill-current
         justify-self-end
-        fill-primary-orange
         row-start-1 row-end-2
         col-start-2 col-end-3
     `}

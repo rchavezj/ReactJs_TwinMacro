@@ -18656,7 +18656,7 @@ video {
 }
 
 .fill-current {
-  fill: currentColor;
+  fill: #c69963;
 }
 
 .stroke-current {
@@ -20981,6 +20981,14 @@ video {
 
 .z-0 {
   z-index: 0;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
 }
 
 .z-10 {
@@ -42232,7 +42240,7 @@ code {
   }
 
   .sm\:fill-current {
-    fill: currentColor;
+    fill: #c69963;
   }
 
   .sm\:stroke-current {
@@ -44557,6 +44565,14 @@ code {
 
   .sm\:z-0 {
     z-index: 0;
+  }
+
+  .sm\:z-1 {
+    z-index: 1;
+  }
+
+  .sm\:z-2 {
+    z-index: 2;
   }
 
   .sm\:z-10 {
@@ -65729,7 +65745,7 @@ code {
   }
 
   .md\:fill-current {
-    fill: currentColor;
+    fill: #c69963;
   }
 
   .md\:stroke-current {
@@ -68054,6 +68070,14 @@ code {
 
   .md\:z-0 {
     z-index: 0;
+  }
+
+  .md\:z-1 {
+    z-index: 1;
+  }
+
+  .md\:z-2 {
+    z-index: 2;
   }
 
   .md\:z-10 {
@@ -89226,7 +89250,7 @@ code {
   }
 
   .mg_lg\:fill-current {
-    fill: currentColor;
+    fill: #c69963;
   }
 
   .mg_lg\:stroke-current {
@@ -91551,6 +91575,14 @@ code {
 
   .mg_lg\:z-0 {
     z-index: 0;
+  }
+
+  .mg_lg\:z-1 {
+    z-index: 1;
+  }
+
+  .mg_lg\:z-2 {
+    z-index: 2;
   }
 
   .mg_lg\:z-10 {
@@ -112723,7 +112755,7 @@ code {
   }
 
   .lg_md\:fill-current {
-    fill: currentColor;
+    fill: #c69963;
   }
 
   .lg_md\:stroke-current {
@@ -115048,6 +115080,14 @@ code {
 
   .lg_md\:z-0 {
     z-index: 0;
+  }
+
+  .lg_md\:z-1 {
+    z-index: 1;
+  }
+
+  .lg_md\:z-2 {
+    z-index: 2;
   }
 
   .lg_md\:z-10 {
@@ -136220,7 +136260,7 @@ code {
   }
 
   .lg\:fill-current {
-    fill: currentColor;
+    fill: #c69963;
   }
 
   .lg\:stroke-current {
@@ -138545,6 +138585,14 @@ code {
 
   .lg\:z-0 {
     z-index: 0;
+  }
+
+  .lg\:z-1 {
+    z-index: 1;
+  }
+
+  .lg\:z-2 {
+    z-index: 2;
   }
 
   .lg\:z-10 {
@@ -159717,7 +159765,7 @@ code {
   }
 
   .xl\:fill-current {
-    fill: currentColor;
+    fill: #c69963;
   }
 
   .xl\:stroke-current {
@@ -162042,6 +162090,14 @@ code {
 
   .xl\:z-0 {
     z-index: 0;
+  }
+
+  .xl\:z-1 {
+    z-index: 1;
+  }
+
+  .xl\:z-2 {
+    z-index: 2;
   }
 
   .xl\:z-10 {

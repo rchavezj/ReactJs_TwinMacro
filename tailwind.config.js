@@ -242,9 +242,9 @@ module.exports = {
     divideColor: theme => theme('borderColor'),
     divideOpacity: theme => theme('borderOpacity'),
     divideWidth: theme => theme('borderWidth'),
-    fill: theme => ({
-      'primary-orange': theme('colors.gray.350')
-    }),
+    fill: {
+      current: "#c69963",
+    },
     flex: {
       '1': '1 1 0%',
       auto: '1 1 auto',
@@ -468,6 +468,7 @@ module.exports = {
       '0': '0',
       '1': '1',
       '2': '2',
+      '3': '3',
       '10': '10',
       '20': '20',
       '30': '30',

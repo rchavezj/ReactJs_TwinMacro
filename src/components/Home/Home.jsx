@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HomeTW } from ''
+import { HomeTW } from './Home.styles';
 
 import spriteSVG from '../../img/sprite.svg';
 
