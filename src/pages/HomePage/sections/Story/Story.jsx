@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Heading, Button } from '../../../../abstract/typography.styles';
+import { Button, Heading } from '../../../../abstract/typography.styles';
 import background from '../../../../img/back.jpg';
 import story1 from '../../../../img/story-1.jpeg';
 import story2 from '../../../../img/story-2.jpeg';

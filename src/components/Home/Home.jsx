@@ -1,8 +1,7 @@
 import React from 'react';
-
 import { HomeTW } from './Home.styles';
-
 import spriteSVG from '../../img/sprite.svg';
+
 
 const Home = ({ imgSrc, caption, country, numOfRooms, acreLength, price }) => {
     return (

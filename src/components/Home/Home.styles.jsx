@@ -33,25 +33,51 @@ const like = styled.svg`
 
 const name = styled.h5`
     ${tw`
+        p-5
+        w-10/12
+        text-2x1x5
+        text-center
+        bg-blue-950
+        font-normal
+        text-blue-950
+        translate-y-1/2
         justify-self-center
         row-start-1 row-end-2
         col-start-1 col-end-13
     `}
+    font-family: "Josefin Sans", sans-serif;
 `;
 
-const location_and_rooms = {
+const location_and_rooms = styled.div`
+    ${tw` mt-10 `}
+`;
 
-}
 
-const location_roomns_area_price = {
-
-}
+const location_rooms_area_price = styled.div`
+    ${tw`
+        flex
+        ml-8
+        text-2xl
+        items-center
+    `}
+    svg {
+        ${tw`
+            mr-4
+            h-8 w-8
+            fill-current
+        `}
+    }
+`;
 
 export const HomeTW = {
     image, like, name,
+    location_and_rooms,
+    location_rooms_area_price
 }
 
-export const Btn = {
-
-}
+export const HomeBtn = styled.button`
+    ${tw`
+        col-start-1 col-end-13
+    `}
+`;
 
