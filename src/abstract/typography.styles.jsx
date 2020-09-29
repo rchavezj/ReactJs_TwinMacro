@@ -76,11 +76,7 @@ export const Heading = {
     H4, H4_Light, H4_Dark
 }
 
-
-
-
-
-export const Button = styled.button`
+export const ButtonStr = css`
     ${tw`
         text-2xl
         uppercase 
@@ -99,3 +95,6 @@ export const Button = styled.button`
     font-family: "Josefin Sans", sans-serif;
 `;
 
+export const Button = styled.button`
+   ${ButtonStr}
+`;

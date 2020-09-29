@@ -496,6 +496,7 @@ module.exports = {
     },
     gridColumn: {
       auto: 'auto',
+      '1-to-neg-1': '1 / -1',
       'span-1': 'span 1 / span 1',
       'span-2': 'span 2 / span 2',
       'span-3': 'span 3 / span 3',
@@ -557,6 +558,7 @@ module.exports = {
     },
     gridRow: {
       auto: 'auto',
+      '1-to-neg-1': '1 / -1',
       'span-1': 'span 1 / span 1',
       'span-2': 'span 2 / span 2',
       'span-3': 'span 3 / span 3',

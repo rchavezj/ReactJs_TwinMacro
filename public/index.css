@@ -21897,6 +21897,10 @@ video {
   grid-column: auto;
 }
 
+.col-1-to-neg-1 {
+  grid-column: 1 / -1;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -22107,6 +22111,10 @@ video {
 
 .row-auto {
   grid-row: auto;
+}
+
+.row-1-to-neg-1 {
+  grid-row: 1 / -1;
 }
 
 .row-span-1 {
@@ -45635,6 +45643,10 @@ code {
     grid-column: auto;
   }
 
+  .sm\:col-1-to-neg-1 {
+    grid-column: 1 / -1;
+  }
+
   .sm\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -45845,6 +45857,10 @@ code {
 
   .sm\:row-auto {
     grid-row: auto;
+  }
+
+  .sm\:row-1-to-neg-1 {
+    grid-row: 1 / -1;
   }
 
   .sm\:row-span-1 {
@@ -69294,6 +69310,10 @@ code {
     grid-column: auto;
   }
 
+  .md\:col-1-to-neg-1 {
+    grid-column: 1 / -1;
+  }
+
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -69504,6 +69524,10 @@ code {
 
   .md\:row-auto {
     grid-row: auto;
+  }
+
+  .md\:row-1-to-neg-1 {
+    grid-row: 1 / -1;
   }
 
   .md\:row-span-1 {
@@ -92953,6 +92977,10 @@ code {
     grid-column: auto;
   }
 
+  .mg_lg\:col-1-to-neg-1 {
+    grid-column: 1 / -1;
+  }
+
   .mg_lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -93163,6 +93191,10 @@ code {
 
   .mg_lg\:row-auto {
     grid-row: auto;
+  }
+
+  .mg_lg\:row-1-to-neg-1 {
+    grid-row: 1 / -1;
   }
 
   .mg_lg\:row-span-1 {
@@ -116612,6 +116644,10 @@ code {
     grid-column: auto;
   }
 
+  .lg_md\:col-1-to-neg-1 {
+    grid-column: 1 / -1;
+  }
+
   .lg_md\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -116822,6 +116858,10 @@ code {
 
   .lg_md\:row-auto {
     grid-row: auto;
+  }
+
+  .lg_md\:row-1-to-neg-1 {
+    grid-row: 1 / -1;
   }
 
   .lg_md\:row-span-1 {
@@ -140271,6 +140311,10 @@ code {
     grid-column: auto;
   }
 
+  .lg\:col-1-to-neg-1 {
+    grid-column: 1 / -1;
+  }
+
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -140481,6 +140525,10 @@ code {
 
   .lg\:row-auto {
     grid-row: auto;
+  }
+
+  .lg\:row-1-to-neg-1 {
+    grid-row: 1 / -1;
   }
 
   .lg\:row-span-1 {
@@ -163930,6 +163978,10 @@ code {
     grid-column: auto;
   }
 
+  .xl\:col-1-to-neg-1 {
+    grid-column: 1 / -1;
+  }
+
   .xl\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -164140,6 +164192,10 @@ code {
 
   .xl\:row-auto {
     grid-row: auto;
+  }
+
+  .xl\:row-1-to-neg-1 {
+    grid-row: 1 / -1;
   }
 
   .xl\:row-span-1 {

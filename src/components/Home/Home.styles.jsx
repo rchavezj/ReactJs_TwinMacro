@@ -1,9 +1,8 @@
 import tw, { css, styled } from 'twin.macro';
+import { ButtonStr } from '../../abstract/typography.styles';
 
-
-const baseStyle = css`
-    ${tw`
-        z-1
+const baseStyle = styled.div`
+    ${tw` 
         grid
         gap-y-13
         bg-gray-50
@@ -13,18 +12,16 @@ const baseStyle = css`
 
 
 const image = styled.img`
-    ${baseStyle}
     ${tw`
         z-1
         w-full
+        col-1-to-neg-1
         row-start-1 row-end-2
-        col-start-1 col-end-13
     `}
 `;
 
 
 const like = styled.svg`
-    ${baseStyle}
     ${tw`
         m-4 z-2
         h-10 w-10 
@@ -37,7 +34,6 @@ const like = styled.svg`
 
 
 const name = styled.h5`
-    ${baseStyle}
     ${tw`
         p-5
         w-10/12
@@ -46,23 +42,16 @@ const name = styled.h5`
         bg-blue-950
         font-normal
         text-blue-950
+        col-1-to-neg-1
         translate-y-1/2
         justify-self-center
         row-start-1 row-end-2
-        col-start-1 col-end-13
     `}
     font-family: "Josefin Sans", sans-serif;
 `;
 
 
-const location_or_rooms = styled.div`
-    ${baseStyle}
-    ${tw` mt-10 `}
-`;
-
-
-const location_rooms_area_price = styled.div`
-    ${baseStyle}
+const homeProperties = css`
     ${tw`
         flex
         ml-8
@@ -79,17 +68,29 @@ const location_rooms_area_price = styled.div`
 `;
 
 
+const location = styled.div`
+    ${homeProperties}
+    ${tw` mt-10 `}
+`; const rooms = location;
+
+
+const area = styled.div`
+    ${homeProperties}
+`; const price = area;
+
+
+
 export const HomeTW = {
     baseStyle,
     image, like, name,
-    location_or_rooms,
-    location_rooms_area_price
+    location, rooms,
+    area, price
 }
 
 
-export const HomeBtn = styled.button`
-    ${tw`
-        col-start-1 col-end-13
-    `}
+export const HomeButtonTW = styled.button`
+    ${ButtonStr}
+    ${tw` col-1-to-neg-1 `}
 `;
+
 
