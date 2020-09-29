@@ -1,5 +1,6 @@
 import tw, { css, styled } from 'twin.macro';
 
+
 const baseStyle = css`
     ${tw`
         z-1
@@ -10,6 +11,7 @@ const baseStyle = css`
     `}
 `;
 
+
 const image = styled.img`
     ${baseStyle}
     ${tw`
@@ -19,6 +21,7 @@ const image = styled.img`
         col-start-1 col-end-13
     `}
 `;
+
 
 const like = styled.svg`
     ${baseStyle}
@@ -31,6 +34,7 @@ const like = styled.svg`
         col-start-2 col-end-3
     `}
 `;
+
 
 const name = styled.h5`
     ${baseStyle}
@@ -49,6 +53,7 @@ const name = styled.h5`
     `}
     font-family: "Josefin Sans", sans-serif;
 `;
+
 
 const location_or_rooms = styled.div`
     ${baseStyle}
@@ -73,12 +78,14 @@ const location_rooms_area_price = styled.div`
     }
 `;
 
+
 export const HomeTW = {
     baseStyle,
     image, like, name,
     location_or_rooms,
     location_rooms_area_price
 }
+
 
 export const HomeBtn = styled.button`
     ${tw`
