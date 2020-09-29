@@ -545,6 +545,7 @@ module.exports = {
       '11': '11',
       '12': '12',
       '13': '13',
+      'neg-1': '-1',
       'center': 'center-end',
     },
     gridTemplateRows: {
@@ -585,6 +586,7 @@ module.exports = {
       '5': '5',
       '6': '6',
       '7': '7',
+      'neg-1': '-1',
     },
     transformOrigin: {
       center: 'center',
