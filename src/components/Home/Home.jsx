@@ -37,7 +37,12 @@ const Home = ({ imgSrc, caption, country, numOfRooms, acreLength, price }) => {
             </div >
             <button className="btn home__btn">Contact realtor</button>
         </div >
+
+
     )
 }
-
 export default Home;
+
+
+
+

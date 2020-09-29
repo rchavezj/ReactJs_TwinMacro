@@ -1,6 +1,6 @@
-import tw, { styled } from 'twin.macro';
+import tw, { css, styled } from 'twin.macro';
 
-const baseStyle = styled.div`
+const baseStyle = css`
     ${tw`
         z-1
         grid
@@ -50,7 +50,7 @@ const name = styled.h5`
     font-family: "Josefin Sans", sans-serif;
 `;
 
-const location_and_rooms = styled.div`
+const location_or_rooms = styled.div`
     ${baseStyle}
     ${tw` mt-10 `}
 `;
@@ -74,8 +74,9 @@ const location_rooms_area_price = styled.div`
 `;
 
 export const HomeTW = {
+    baseStyle,
     image, like, name,
-    location_and_rooms,
+    location_or_rooms,
     location_rooms_area_price
 }
 
