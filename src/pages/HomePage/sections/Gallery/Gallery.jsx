@@ -15,12 +15,14 @@ import gal12 from '../../../../img/gal-12.jpeg';
 import gal13 from '../../../../img/gal-13.jpeg';
 import gal14 from '../../../../img/gal-14.jpeg';
 
-
+// import { Gallery } from './Gallery.styles';
 
 const Gallery = () => {
     return (
         <section class="gallery">
-            <figure class="gallery__item gallery__item--1"><img src={gal1} alt="/#" class="gallery__img" /></figure>
+            <figure class="gallery__item gallery__item--1">
+                <img src={gal1} alt="/#" class="gallery__img" />
+            </figure>
             <figure class="gallery__item gallery__item--2"><img src={gal2} alt="/#" class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--3"><img src={gal3} alt="/#" class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--4"><img src={gal4} alt="/#" class="gallery__img" /></figure>
@@ -38,5 +40,5 @@ const Gallery = () => {
     )
 }
 
-export default Gallery;
 
+export default Gallery;
