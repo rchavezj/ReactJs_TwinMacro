@@ -9,6 +9,7 @@ const galleryStr = `
     grid-cols-gallery
 `;
 
+
 const image = styled.image`
     ${galleryStr}
     ${tw`
