@@ -479,6 +479,7 @@ module.exports = {
     gap: theme => theme('spacing'),
     gridTemplateColumns: {
       none: 'none',
+      'repeat': 'repeat(2, 1fr)',
       '1': 'repeat(1, minmax(0, 1fr))',
       '2': 'repeat(2, minmax(0, 1fr))',
       '3': 'repeat(3, minmax(0, 1fr))',
@@ -491,7 +492,7 @@ module.exports = {
       '10': 'repeat(10, minmax(0, 1fr))',
       '11': 'repeat(11, minmax(0, 1fr))',
       '12': 'repeat(12, minmax(0, 1fr))',
-      'repeat': 'repeat(2, 1fr)',
+      gallery: 'repeat(7, 5vw) / repeat(8, 1fr)',
       'auto-fit': 'repeat(auto-fit,minmax(25rem,1fr))',
     },
     gridColumn: {
@@ -509,6 +510,7 @@ module.exports = {
       'span-10': 'span 10 / span 10',
       'span-11': 'span 11 / span 11',
       'span-12': 'span 12 / span 12',
+      'full-st-end': 'full-start / full-end',
       'centered': 'center-start / center-end',
       'center-story-picture': 'full-start / col-end 4',
       'center-story-content': 'col-start 5 / full-end',

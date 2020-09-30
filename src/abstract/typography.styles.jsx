@@ -6,6 +6,7 @@ const baseStyles = css`
     font-family: "Josefin Sans", sans-serif;
 `;
 
+
 // Heading 1
 const H1 = styled.h1`
     ${baseStyles};
