@@ -33,7 +33,10 @@ const item2 = styled.figure`
 
 const item3 = styled.figure`
     grid-row: 1 / span 2;
-        grid-column: 6 / 7;
+    grid-column: 6 / 7;
+`;
+
+const item4 = styled.figure`
 `;
 
 // styled.figure`
