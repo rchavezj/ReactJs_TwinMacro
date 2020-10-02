@@ -15,7 +15,7 @@ import gal12 from '../../../../img/gal-12.jpeg';
 import gal13 from '../../../../img/gal-13.jpeg';
 import gal14 from '../../../../img/gal-14.jpeg';
 
-// import { Gallery } from './Gallery.styles';
+import { GalleryTW } from './Gallery.styles';
 
 const Gallery = () => {
     return (
@@ -41,4 +41,4 @@ const Gallery = () => {
 }
 
 
-export default Gallery;
+export default Gallery; 
