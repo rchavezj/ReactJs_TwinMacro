@@ -37,53 +37,64 @@ const item3 = styled.figure`
 `;
 
 const item4 = styled.figure`
+    grid-row: 1 / span  2;
+    grid-column: 7 /span 2;
 `;
 
-// styled.figure`
-//         grid-row: 1 / span 2;
-//         grid-column: 7 / -1;
-//     `,
-//     styled.figure`
-//         grid-row: 3 / span 3;
-//         grid-column: 1 / span 2;
-//     `,
-//     styled.figure`
-//         grid-row: 4 / span 2;
-//         grid-column: 3 / span 2;
-//     `,
-//     styled.figure`
-//         grid-row: 4 / span 1;
-//         grid-column: 5 / span 1;
-//     `,
-//     styled.figure`
-//         grid-row: 3 / span 3;
-//         grid-column: 6 / span 2;
-//     `,
-//     styled.figure`
-//         grid-row: 3 / span 3;
-//         grid-column: 8 / -1;
-//     `,
-//     styled.figure`
-//         grid-row: 6 / span 2;
-//         grid-column: 1 / span 1;
-//     `,
-//     styled.figure`
-//         grid-row: 6 / span 2;
-//         grid-column: 2 / span 2;
-//     `,
-//     styled.figure`
-//         grid-row: 6 / span 2;
-//         grid-column: 4 / span 1;
-//     `,
-//     styled.figure`
-//         grid-row: 5 / span 3;
-//         grid-column: 5 / span 3;
-//     `,
-//     styled.figure`
-//         grid-row: 6 / span 2;
-//         grid-column: 8 / span 1;
-//     `,
-// ];
+const item5 = styled.figure`
+    grid-row: 3 / span 3;
+    grid-column: 1 / span 2;
+`;
+
+const item6 = styled.figure`
+
+`;
+
+styled.figure`
+        grid-row: 1 / s `pan 2;
+grid - column: 7 / -1;
+`,
+    styled.figure`
+grid - row: 3 / span 3;
+grid - column: 1 / span 2;
+`,
+    styled.figure`
+grid - row: 4 / span 2;
+grid - column: 3 / span 2;
+`,
+    styled.figure`
+grid - row: 4 / span 1;
+grid - column: 5 / span 1;
+`,
+    styled.figure`
+grid - row: 3 / span 3;
+grid - column: 6 / span 2;
+`,
+    styled.figure`
+grid - row: 3 / span 3;
+grid - column: 8 / -1;
+`,
+    styled.figure`
+grid - row: 6 / span 2;
+grid - column: 1 / span 1;
+`,
+    styled.figure`
+grid - row: 6 / span 2;
+grid - column: 2 / span 2;
+`,
+    styled.figure`
+grid - row: 6 / span 2;
+grid - column: 4 / span 1;
+`,
+    styled.figure`
+grid - row: 5 / span 3;
+grid - column: 5 / span 3;
+`,
+    styled.figure`
+grid - row: 6 / span 2;
+grid - column: 8 / span 1;
+`,
+];
 
 
 export const Gallery = {
