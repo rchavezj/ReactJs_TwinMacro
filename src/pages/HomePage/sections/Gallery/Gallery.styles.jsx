@@ -47,7 +47,7 @@ const item5 = styled.figure`
 `;
 
 const item6 = styled.figure`
-
+    grid-
 `;
 
 styled.figure`
