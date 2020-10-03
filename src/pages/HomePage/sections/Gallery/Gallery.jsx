@@ -17,31 +17,25 @@ import gal14 from '../../../../img/gal-14.jpeg';
 
 import { GalleryTW } from './Gallery.styles';
 
+
+
 const Gallery = () => {
     return (
         <GalleryTW.baseStyle>
-
-            <GalleryTW.item1>
-                <GalleryTW.image src={gal1} alt="/#" />
-            </GalleryTW.item1>
-
-            <GalleryTW.item2>
-                <GalleryTW.image src={gal2} alt="/#" />
-            </GalleryTW.item2>
-
-
-            <figure class="gallery__item gallery__item--3"><img src={gal3} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--4"><img src={gal4} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--5"><img src={gal5} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--6"><img src={gal6} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--7"><img src={gal7} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--8"><img src={gal8} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--9"><img src={gal9} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--10"><img src={gal10} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--11"><img src={gal11} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--12"><img src={gal12} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--13"><img src={gal13} alt="/#" class="gallery__img" /></figure>
-            <figure class="gallery__item gallery__item--14"><img src={gal14} alt="/#" class="gallery__img" /></figure>
+            <GalleryTW.item1><GalleryTW.image src={gal1} alt="/#" /></GalleryTW.item1>
+            <GalleryTW.item2><GalleryTW.image src={gal2} alt="/#" /></GalleryTW.item2>
+            <GalleryTW.item3><GalleryTW.image src={gal3} alt="/#" /></GalleryTW.item3>
+            <GalleryTW.item4><GalleryTW.image src={gal4} alt="/#" /></GalleryTW.item4>
+            <GalleryTW.item5><GalleryTW.image src={gal5} alt="/#" /></GalleryTW.item5>
+            <GalleryTW.item6><GalleryTW.image src={gal6} alt="/#" /></GalleryTW.item6>
+            <GalleryTW.item7><GalleryTW.image src={gal7} alt="/#" /></GalleryTW.item7>
+            <GalleryTW.item8><GalleryTW.image src={gal8} alt="/#" /></GalleryTW.item8>
+            <GalleryTW.item9><GalleryTW.image src={gal9} alt="/#" /></GalleryTW.item9>
+            <GalleryTW.item10><GalleryTW.image src={gal10} alt="/#" /></GalleryTW.item10>
+            <GalleryTW.item11><GalleryTW.image src={gal11} alt="/#" /></GalleryTW.item11>
+            <GalleryTW.item12><GalleryTW.image src={gal12} alt="/#" /></GalleryTW.item12>
+            <GalleryTW.item13><GalleryTW.image src={gal13} alt="/#" /></GalleryTW.item13>
+            <GalleryTW.item14><GalleryTW.image src={gal14} alt="/#" /></GalleryTW.item14>
         </GalleryTW.baseStyle>
     )
 }

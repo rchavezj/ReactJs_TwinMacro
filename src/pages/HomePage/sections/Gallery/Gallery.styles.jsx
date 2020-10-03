@@ -27,7 +27,6 @@ const image = styled.img`
 
 
 const item1 = styled.figure`
-    /* ${galleryStr} */
     grid-row: 1 / span 2;
     grid-column: 1 / span 2;
 `;
