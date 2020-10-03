@@ -19,11 +19,17 @@ import { GalleryTW } from './Gallery.styles';
 
 const Gallery = () => {
     return (
-        <section class="gallery">
-            <figure class="gallery__item gallery__item--1">
-                <img src={gal1} alt="/#" class="gallery__img" />
-            </figure>
-            <figure class="gallery__item gallery__item--2"><img src={gal2} alt="/#" class="gallery__img" /></figure>
+        <GalleryTW.baseStyle>
+
+            <GalleryTW.item1>
+                <GalleryTW.image src={gal1} alt="/#" />
+            </GalleryTW.item1>
+
+            <GalleryTW.item2>
+                <GalleryTW.image src={gal2} alt="/#" />
+            </GalleryTW.item2>
+
+
             <figure class="gallery__item gallery__item--3"><img src={gal3} alt="/#" class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--4"><img src={gal4} alt="/#" class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--5"><img src={gal5} alt="/#" class="gallery__img" /></figure>
@@ -36,7 +42,7 @@ const Gallery = () => {
             <figure class="gallery__item gallery__item--12"><img src={gal12} alt="/#" class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--13"><img src={gal13} alt="/#" class="gallery__img" /></figure>
             <figure class="gallery__item gallery__item--14"><img src={gal14} alt="/#" class="gallery__img" /></figure>
-        </section>
+        </GalleryTW.baseStyle>
     )
 }
 

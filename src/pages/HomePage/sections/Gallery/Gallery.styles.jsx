@@ -1,17 +1,22 @@
 import tw, { css, styled } from 'twin.macro';
 
 
-const galleryStr = ` 
-    p-6
-    grid
-    gap-6
-    bg-gray-50
-    grid-cols-gallery
+const galleryStr = css` 
+    ${tw`
+        p-6
+        grid
+        gap-6
+        bg-gray-50
+        col-full-st-end
+    `}
 `;
 
+const baseStyle = styled.figure`
+    ${galleryStr};
+    grid-template: repeat(7, 5vw) / repeat(8, 1fr);
+`;
 
-const image = styled.image`
-    ${galleryStr}
+const image = styled.img`
     ${tw`
         block
         w-full
@@ -21,7 +26,8 @@ const image = styled.image`
 `;
 
 
-const item1 = styled.figure` 
+const item1 = styled.figure`
+    /* ${galleryStr} */
     grid-row: 1 / span 2;
     grid-column: 1 / span 2;
 `;
@@ -33,12 +39,12 @@ const item2 = styled.figure`
 
 const item3 = styled.figure`
     grid-row: 1 / span 2;
-    grid-column: 6 / 7;
+    grid-column: 6 / span 1;
 `;
 
 const item4 = styled.figure`
     grid-row: 1 / span  2;
-    grid-column: 7 /span 2;
+    grid-column: 7 / span 2;
 `;
 
 const item5 = styled.figure`
@@ -56,7 +62,6 @@ const item7 = styled.figure`
     grid-column: 5 / span 1;
 `;
 
-
 const item8 = styled.figure`
     grid-row: 3 / span 2;
     grid-column: 6 / span 2;
@@ -64,12 +69,12 @@ const item8 = styled.figure`
 
 const item9 = styled.figure`
     grid-row: 3 / span 3;
-    grid-column: 8 / -1;   
+    grid-column: 8 / span 1;   
 `;
 
 const item10 = styled.figure`
     grid-row: 6 / span 2;
-    grid-column: 1 / 2;
+    grid-column: 1 / span 1;
 `;
 
 const item11 = styled.figure`
@@ -79,7 +84,7 @@ const item11 = styled.figure`
 
 const item12 = styled.figure`
     grid-row: 6 / span 2;
-    grid-column: 4 / 5;
+    grid-column: 4 / span 1;
 `;
 
 const item13 = styled.figure`
@@ -93,9 +98,9 @@ const item14 = styled.figure`
 `;
 
 export const GalleryTW = {
-    image,
-    item1, item2, item3, item4,
-    item5, item6, item7, item8,
-    item9, item10, item11, item12,
-    item13, item14
+    image, baseStyle, item1, item2,
+    item3, item4, item5, item6,
+    item7, item8, item9, item10,
+    item11, item12, item13, item14
+
 }

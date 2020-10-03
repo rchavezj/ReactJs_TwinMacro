@@ -477,6 +477,10 @@ module.exports = {
       '50': '50',
     },
     gap: theme => theme('spacing'),
+    gridTemplate: {
+      none: 'none',
+      gallery: 'repeat(7, 5vw) / repeat(8, 1fr)',
+    },
     gridTemplateColumns: {
       none: 'none',
       'repeat': 'repeat(2, 1fr)',
