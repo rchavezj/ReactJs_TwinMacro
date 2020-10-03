@@ -25,6 +25,7 @@ module.exports = {
       white: '#fff',
 
       gray: {
+        25: '#aaa',
         50: '#f9f7f6',
         100: '#f7fafc',
         200: '#edf2f7',
@@ -286,6 +287,7 @@ module.exports = {
       base: '1rem',
       lg: '1.125rem',
       xl: '1.25rem',
+      '1xl': '1.4rem',
       '2xl': '1.5rem',
       '2x1x5': '1.6rem',
       '3xl': '1.875rem',
@@ -457,6 +459,7 @@ module.exports = {
       '6/12': '50%',
       '7/12': '58.333333%',
       '8/12': '66.666667%',
+      '8/12/5': '70%',
       '9/12': '75%',
       '10/12': '83.333333%',
       '11/12': '91.666667%',
@@ -498,6 +501,7 @@ module.exports = {
       '12': 'repeat(12, minmax(0, 1fr))',
       gallery: 'repeat(7, 5vw) / repeat(8, 1fr)',
       'auto-fit': 'repeat(auto-fit,minmax(25rem,1fr))',
+      'auto-fit-nav': 'repeat(auto-fit, minmax(15rem, 1fr))',
     },
     gridColumn: {
       auto: 'auto',
