@@ -64,3 +64,4 @@ export const FooterTW = {
     footer, nav,
     link, copyright
 }
+

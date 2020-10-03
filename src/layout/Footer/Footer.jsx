@@ -5,6 +5,9 @@ import { FooterTW } from './Footer.styles';
 
 const Footer = () => {
     return (
+
+        <FooterTW.footer>
+        
         <footer className="footer">
             <ul className="nav">
 
@@ -26,6 +29,8 @@ const Footer = () => {
             </p>
 
         </footer>
+
+        </FooterTW.footer>
     )
 }
 
