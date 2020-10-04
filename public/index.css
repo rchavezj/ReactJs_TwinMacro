@@ -22047,6 +22047,11 @@ video {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-cols-realtors {
+  grid-template-columns: -webkit-min-content -webkit-max-content;
+  grid-template-columns: min-content max-content;
+}
+
 .grid-cols-gallery {
   grid-template-columns: repeat(7, 5vw) / repeat(8, 1fr);
 }
@@ -45975,6 +45980,11 @@ code {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .sm\:grid-cols-realtors {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
+  }
+
   .sm\:grid-cols-gallery {
     grid-template-columns: repeat(7, 5vw) / repeat(8, 1fr);
   }
@@ -69822,6 +69832,11 @@ code {
 
   .md\:grid-cols-repeat {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .md\:grid-cols-realtors {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
   }
 
   .md\:grid-cols-gallery {
@@ -93673,6 +93688,11 @@ code {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .mg_lg\:grid-cols-realtors {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
+  }
+
   .mg_lg\:grid-cols-gallery {
     grid-template-columns: repeat(7, 5vw) / repeat(8, 1fr);
   }
@@ -117520,6 +117540,11 @@ code {
 
   .lg_md\:grid-cols-repeat {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lg_md\:grid-cols-realtors {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
   }
 
   .lg_md\:grid-cols-gallery {
@@ -141371,6 +141396,11 @@ code {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .lg\:grid-cols-realtors {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
+  }
+
   .lg\:grid-cols-gallery {
     grid-template-columns: repeat(7, 5vw) / repeat(8, 1fr);
   }
@@ -165218,6 +165248,11 @@ code {
 
   .xl\:grid-cols-repeat {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .xl\:grid-cols-realtors {
+    grid-template-columns: -webkit-min-content -webkit-max-content;
+    grid-template-columns: min-content max-content;
   }
 
   .xl\:grid-cols-gallery {
