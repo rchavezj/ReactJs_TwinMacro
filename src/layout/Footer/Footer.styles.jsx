@@ -1,4 +1,4 @@
-import tw, { css, styled } from 'twin.macro';
+import tw, { styled } from 'twin.macro';
 
 
 
@@ -25,13 +25,12 @@ const nav = styled.ul`
 
 
 const link = styled.a`
-    ${tw` ${navStr} `};
-    :link, :visited{
+    &:link, &:visited{
         ${tw`
             p-6
             text-1xl
             block
-            bg-white
+            text-white
             uppercase
             text-center
             no-underline
@@ -42,7 +41,7 @@ const link = styled.a`
     }
     :hover, :active {
         transform: translateY(-3px);
-        background-color: rgba(#fff, .05);
+        background-color: rgba(255, 255, 255, 0.05);
     }   
 `;
 
@@ -54,8 +53,8 @@ const copyright = styled.p`
         ml-auto
         text-1xl
         w-8/12/5
-        bg-gray-25
         text-center
+        text-gray-25
     `}
 `;
 
