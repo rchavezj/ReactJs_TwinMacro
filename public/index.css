@@ -22123,6 +22123,10 @@ video {
   grid-column: center-start / center-end;
 }
 
+.col-center-realtors {
+  grid-column: col-start 7 / full-end;
+}
+
 .col-center-story-picture {
   grid-column: full-start / col-end 4;
 }
@@ -46047,6 +46051,10 @@ code {
     grid-column: center-start / center-end;
   }
 
+  .sm\:col-center-realtors {
+    grid-column: col-start 7 / full-end;
+  }
+
   .sm\:col-center-story-picture {
     grid-column: full-start / col-end 4;
   }
@@ -69890,6 +69898,10 @@ code {
 
   .md\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .md\:col-center-realtors {
+    grid-column: col-start 7 / full-end;
   }
 
   .md\:col-center-story-picture {
@@ -93737,6 +93749,10 @@ code {
     grid-column: center-start / center-end;
   }
 
+  .mg_lg\:col-center-realtors {
+    grid-column: col-start 7 / full-end;
+  }
+
   .mg_lg\:col-center-story-picture {
     grid-column: full-start / col-end 4;
   }
@@ -117580,6 +117596,10 @@ code {
 
   .lg_md\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .lg_md\:col-center-realtors {
+    grid-column: col-start 7 / full-end;
   }
 
   .lg_md\:col-center-story-picture {
@@ -141427,6 +141447,10 @@ code {
     grid-column: center-start / center-end;
   }
 
+  .lg\:col-center-realtors {
+    grid-column: col-start 7 / full-end;
+  }
+
   .lg\:col-center-story-picture {
     grid-column: full-start / col-end 4;
   }
@@ -165270,6 +165294,10 @@ code {
 
   .xl\:col-centered {
     grid-column: center-start / center-end;
+  }
+
+  .xl\:col-center-realtors {
+    grid-column: col-start 7 / full-end;
   }
 
   .xl\:col-center-story-picture {

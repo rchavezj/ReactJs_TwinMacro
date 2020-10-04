@@ -16,7 +16,7 @@ export const SideBarTW = styled.div`
         bg-orange-350 
         justify-center
         row-start-1 row-end-2
-        col-start-1 col-end-13
+        col-start-1 col-end-neg-1
     `}
 `;
 

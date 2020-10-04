@@ -46,7 +46,7 @@ const link = styled.a`
 `;
 
 
-const copyright = styled.p`
+const copyrightText = styled.p`
     ${tw`
         mt-24
         mr-auto
@@ -61,6 +61,6 @@ const copyright = styled.p`
 
 export const FooterTW = {
     footer, nav,
-    link, copyright
+    link, copyrightText
 }
 

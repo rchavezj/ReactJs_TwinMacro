@@ -520,6 +520,7 @@ module.exports = {
       'span-12': 'span 12 / span 12',
       'full-st-end': 'full-start / full-end',
       'centered': 'center-start / center-end',
+      'center-realtors': 'col-start 7 / full-end',
       'center-story-picture': 'full-start / col-end 4',
       'center-story-content': 'col-start 5 / full-end',
     },
