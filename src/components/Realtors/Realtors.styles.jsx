@@ -3,18 +3,19 @@ import tw, { styled } from 'twin.macro';
 
 const realtors = styled.div`
     ${tw`
-        mg_lg:p-12
-        mg_lg:gap-y-8
-        mg_lg:content-center
         mg_lg:col-center-realtors
-        mg_lg:justify-center 
-        mg_lg:justify-items-center
     `}
 
      ${tw`
+        p-12
         grid
-        col-start-1
+        gap-y-8
         bg-blue-950
+        justify-center
+        content-center
+        justify-items-center
+        col-start-1 col-end-neg-1
+        
     `}
 `;
 
@@ -26,14 +27,13 @@ const list = styled.div`
     `}
 
     ${tw`
-        sm:realtors_sm
+        sm:grid-cols-realtors_sm
     `}
     
     grid-row-gap: 5vh;
     ${tw` grid-cols-realtors `}
     
 `;
-
 
 const img = styled.img`
     ${tw`
@@ -51,6 +51,6 @@ const sold = styled.p`
 `;
 
 
-export const Realtors = {
+export const RealtorsTW = {
     realtors, list, img, sold
 }

@@ -2,12 +2,12 @@ import tw, { styled } from 'twin.macro';
 
 
 // const backgroundLinearLayout = css`
-//   background-image:
-//     linear-gradient(
-//         rgba(#c69963, .5), 
-//         rgba(#c69963, .5)
-//     ), 
-//     ${props => `url(${props.img})`};
+// background-image:
+//   linear-gradient(
+//       rgba(#c69963, .5), 
+//       rgba(#c69963, .5)
+//   ), 
+//   ${props => `url(${props.img})`};
 
 // `;
 
@@ -27,6 +27,8 @@ const Pictures = styled.div`
     bg-orange-350
     col-start-1 col-end-13
   `}  
+  background-image:
+    ${props => `url(${props.img})`};
 `;
 
 

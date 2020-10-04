@@ -4,9 +4,13 @@ import Realtor1 from '../../img/realtor-1.jpeg';
 import Realtor2 from '../../img/realtor-2.jpeg';
 import Realtor3 from '../../img/realtor-3.jpeg'
 
+
+import { RealtorsTW } from './Realtors.styles';
+
+
 const Realtors = () => {
     return (
-        <div className="realtors">
+        <RealtorsTW.realtors>
             <h3 className="heading-3">Top 3 Realtors</h3>
             <div className="realtors__list">
                 <img src={Realtor1} alt="Realtor 1" className="realtors__img" />
@@ -27,7 +31,7 @@ const Realtors = () => {
                     <p className="realtors__sold">198 houses sold</p>
                 </div>
             </div>
-        </div>
+        </RealtorsTW.realtors>
     )
 }
 
