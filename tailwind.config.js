@@ -499,6 +499,7 @@ module.exports = {
       '10': 'repeat(10, minmax(0, 1fr))',
       '11': 'repeat(11, minmax(0, 1fr))',
       '12': 'repeat(12, minmax(0, 1fr))',
+      realtors: 'min-content max-content',
       gallery: 'repeat(7, 5vw) / repeat(8, 1fr)',
       'auto-fit': 'repeat(auto-fit,minmax(25rem,1fr))',
       'auto-fit-nav': 'repeat(auto-fit, minmax(15rem, 1fr))',

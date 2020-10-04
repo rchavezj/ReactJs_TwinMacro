@@ -1,7 +1,7 @@
 import tw, { styled } from 'twin.macro';
 
 
-const realtorsStr = `
+const realtors = styled.div`
     ${tw`
         mg_lg:p-12
         mg_lg:gap-y-8
@@ -18,6 +18,9 @@ const realtorsStr = `
     `}
 `;
 
-const realtors = styled.div`
-   
+const list = styled.div`
+    ${tw`
+        grid
+        
+    `}
 `;
