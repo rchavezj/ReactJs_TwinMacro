@@ -21,18 +21,20 @@ const realtors = styled.div`
 
 const list = styled.div`
     ${tw`
-        mg_lg:grid
-        mg_lg:gap-x-8
-        mg_lg:items-center
+        md:grid-cols-realtors
     `}
 
     ${tw`
+        sm:items-center
         sm:grid-cols-realtors_sm
     `}
     
+    ${tw` 
+        grid
+        gap-x-8
+        grid-cols-realtors
+    `}
     grid-row-gap: 5vh;
-    ${tw` grid-cols-realtors `}
-    
 `;
 
 const img = styled.img`

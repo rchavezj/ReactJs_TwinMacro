@@ -6,13 +6,14 @@ import Realtor3 from '../../img/realtor-3.jpeg'
 
 
 import { RealtorsTW } from './Realtors.styles';
+import { Heading } from '../../abstract/typography.styles';
 
 
 const Realtors = () => {
     return (
         <RealtorsTW.realtors>
-            <h3 className="heading-3">Top 3 Realtors</h3>
-            <div className="realtors__list">
+            <Heading.H3>Top 3 Realtors</Heading.H3>
+            <RealtorsTW.list>
                 <img src={Realtor1} alt="Realtor 1" className="realtors__img" />
                 <div className="realtors__details">
                     <h4 className="heading-4 heading-4--light">Erik Feinman</h4>
@@ -30,7 +31,7 @@ const Realtors = () => {
                     <h4 className="heading-4 heading-4--light">Toby Ramsey</h4>
                     <p className="realtors__sold">198 houses sold</p>
                 </div>
-            </div>
+            </RealtorsTW.list>
         </RealtorsTW.realtors>
     )
 }
