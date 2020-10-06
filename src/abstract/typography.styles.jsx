@@ -55,12 +55,15 @@ const H3_Margin = styled.h3`
 
 
 // Heading 4
-const H4 = styled.h4`
+const H4_STR = `
     ${baseStyles}
     ${tw` text-3x1x5`}
 `;
+const H4 = styled.h4`
+    
+`;
 const H4_Light = styled.h4`
-    ${H4};
+    ${H4_STR};
     ${tw` text-gray-50 `};
 `;
 const H4_Dark = styled.h4`

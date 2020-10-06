@@ -14,10 +14,10 @@ const Realtors = () => {
         <RealtorsTW.realtors>
             <Heading.H3>Top 3 Realtors</Heading.H3>
             <RealtorsTW.list>
-                <img src={Realtor1} alt="Realtor 1" className="realtors__img" />
-                <div className="realtors__details">
-                    <h4 className="heading-4 heading-4--light">Erik Feinman</h4>
-                    <p className="realtors__sold">245 houses sold</p>
+                <RealtorsTW.img src={Realtor1} alt="Realtor 1" />
+                <div>
+                    <Heading.H4_Light>Erik Feinman</Heading.H4_Light>
+                    <RealtorsTW.sold>45 houses sold</RealtorsTW.sold>
                 </div>
 
                 <img src={Realtor2} alt="Realtor 2" className="realtors__img" />

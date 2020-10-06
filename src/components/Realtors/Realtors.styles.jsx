@@ -29,7 +29,6 @@ const list = styled.div`
         mg_lg:grid-cols-realtors
     `}
     
-
     ${tw` 
         grid
         gap-x-8
