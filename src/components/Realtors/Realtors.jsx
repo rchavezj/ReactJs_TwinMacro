@@ -18,7 +18,7 @@ const Realtors = () => {
                 <RealtorsTW.img src={Realtor1} alt="Realtor 1" />
                 <div>
                     <Heading.H4_Light>Erik Feinman</Heading.H4_Light>
-                    <RealtorsTW.sold>45 houses sold</RealtorsTW.sold>
+                    <p className="realtors__sold">212 houses sold</p>
                 </div>
 
                 <img src={Realtor2} alt="Realtor 2" className="realtors__img" />
