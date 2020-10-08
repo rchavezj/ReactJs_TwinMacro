@@ -1,13 +1,17 @@
 import tw, { css, styled } from 'twin.macro';
 
 
+const baseStyleFontFamily = `
+    font-family: "Josefin Sans", sans-serif
+`;
+
 const baseStylesStr = `
-    ${tw` font-normal `};
-    font-family: "Josefin Sans", sans-serif;
+    font-normal
 `;
 
 const baseStyles = css`
-    ${baseStylesStr};
+    ${baseStyleFontFamily};
+    ${tw` ${baseStylesStr}`};
 `;
 
 
@@ -68,6 +72,7 @@ const H4 = styled.h4`
 `;
 const H4_Light = styled.h4`
     ${H4_STR};
+    ${tw` font-normal `};
     ${tw` text-3x1x5`};
     ${tw` text-gray-50 `};
 `;
