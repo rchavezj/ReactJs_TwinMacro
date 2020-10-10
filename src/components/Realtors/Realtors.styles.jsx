@@ -45,7 +45,7 @@ const img = styled.img`
 
 const sold = styled.p`
     ${tw`
-        -mt-12
+        -mt-0.75
         uppercase
         text-gray-50
     `}
