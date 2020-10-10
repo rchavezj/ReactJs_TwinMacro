@@ -22,7 +22,7 @@ const Realtors = () => {
                 <RealtorsTW.img src={Realtor2} alt="Realtor 2" />
                 <div>
                     <Heading.H4_Light>Kim Brown</Heading.H4_Light>
-                    <RealtorsTW.sold>212 houses sold</RealtorsTW.sold>
+                    <RealtorsTW.sold>80 houses sold</RealtorsTW.sold>
                 </div>
                 <RealtorsTW.img src={Realtor3} alt="Realtor 3" />
                 <div>
