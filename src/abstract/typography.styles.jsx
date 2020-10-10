@@ -64,16 +64,16 @@ const H3_Margin = styled.h3`
 
 // Heading 4
 const H4_STR = `
-    ${baseStylesStr};
+    ${baseStylesStr}
     font-normal
     text-3x1x5
     text-gray-50 
 `;
 const H4 = styled.h4`
-    
+
 `;
 const H4_Light = styled.h4`
-    ${tw`${H4_STR}`};
+    ${tw` ${H4_STR} `};
     ${tw` text-gray-50 `};
 `;
 
@@ -105,11 +105,11 @@ export const ButtonStr = css`
     `};
 
      &:hover {
-        ${tw`bg-orange-355`}
+        ${tw`bg-orange-355`};
     }
     font-family: "Josefin Sans", sans-serif;
 `;
 
 export const Button = styled.button`
-   ${ButtonStr}
+   ${ButtonStr};
 `;
