@@ -21,7 +21,6 @@ const Realtors = () => {
                 <RealtorsTW.img src={Realtor2} alt="Realtor 2" />
                 <Realtor name={'Kim Brown'} sold={'80 houses sold'} />
 
-
                 <RealtorsTW.img src={Realtor3} alt="Realtor 3" />
                 <Realtor name={'Toby Ramsey'} sold={'198 houses sold'} />
 

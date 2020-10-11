@@ -7,7 +7,7 @@ const Features = () => {
 
     return (
         <>
-            {/* <section class="features"> */}
+            {/* <section className="features"> */}
 
             <FeatureTW>
 
